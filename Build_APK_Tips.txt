@@ -1,0 +1,5 @@
+https://facebook.github.io/react-native/docs/signed-apk-android.html
+
+make sure using jdk7
+cd sample/android 
+./gradlew assembleRelease
