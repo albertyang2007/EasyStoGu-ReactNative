@@ -1,5 +1,10 @@
 https://facebook.github.io/react-native/docs/signed-apk-android.html
 
 make sure using jdk7
+
+if build failed for some reason, pls copy dependancy from 
+\github\react-native\react-native-easy-listview-gridview\sample\node_modules to
+\github\EasyStoGu-ReactNative\sample\node_modules
+
 cd sample/android 
 ./gradlew assembleRelease
