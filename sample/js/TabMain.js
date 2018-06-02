@@ -24,7 +24,7 @@ export default class TabMain extends Component {
   
   render() {
     return (
-        <View style={[styles.container, {paddingTop: 20}]}>
+        <View style={[styles.container, {paddingTop: 0}]}>
           <ScrollableTabView
               tabBarUnderlineColor="#53ac49"
               tabBarActiveTextColor="#53ac49"
