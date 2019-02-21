@@ -7,4 +7,5 @@ if build failed for some reason, pls copy dependancy from
 \github\EasyStoGu-ReactNative\sample\node_modules
 
 cd sample/android 
-./gradlew assembleRelease
+./gradlew.bat ¨Cstop
+./gradlew.bat assembleRelease
