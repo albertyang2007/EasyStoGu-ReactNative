@@ -9,3 +9,7 @@ if build failed for some reason, pls copy dependancy from
 cd sample/android 
 ./gradlew.bat ¨Cstop
 ./gradlew.bat assembleRelease
+export REACT_NATIVE_MAX_WORKERS=2
+
+##./gradlew.bat assembleRelease -x lintVitalRelease
+
