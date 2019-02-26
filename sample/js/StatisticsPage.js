@@ -16,9 +16,9 @@ const baseUrl = 'http://www.openstock.cn:18080/eweb/react_native_statistics.htm?
 const SAMPLES = [
   {
     component: WebViewSample,
-    name: 'QSDD指标统计',
+    name: '神奇9转指标统计',
     params: {
-	  queryUrl: baseUrl + 'qsdd'
+	  queryUrl: baseUrl + 'magic9day'
     }
   },
   {
@@ -28,6 +28,13 @@ const SAMPLES = [
 	  queryUrl: baseUrl + 'luzaoTrend'
     }
   },
+  {
+	component: WebViewSample,
+	name: 'QSDD指标统计',
+	params: {
+	  queryUrl: baseUrl + 'qsdd'
+	}
+  },  
   {
     component: WebViewSample,
     name: '鲁兆金叉统计',
