@@ -1,15 +1,23 @@
 https://facebook.github.io/react-native/docs/signed-apk-android.html
 
 make sure using jdk7
+make sure ANDROID_HOME is set (F:\software\Android\sdk)
+make sure nodejs is install and set path NODE_PATH (C:\Program Files\nodejs)
 
 if build failed for some reason, pls copy dependancy from 
 \github\react-native\react-native-easy-listview-gridview\sample\node_modules to
 \github\EasyStoGu-ReactNative\sample\node_modules
 
 cd sample/android 
-./gradlew.bat �Cstop
+./gradlew.bat -stop
 ./gradlew.bat assembleRelease
-export REACT_NATIVE_MAX_WORKERS=2
-
+## export REACT_NATIVE_MAX_WORKERS=2
 ##./gradlew.bat assembleRelease -x lintVitalRelease
 
+issue 1:
+'node' 不是内部或外部命令，也不是可运行的程序 或批处理文件。 :app:bundleReleaseJsAndAssets FAILED
+pls install nodejs and set path NODE_PATH ins system
+
+issue 2:
+failed to find Build Tools revision 23.0.3
+pls using andriod studio to install the ADK build tools, and check if it exist in SDK home / build-tools
