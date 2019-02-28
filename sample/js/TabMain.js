@@ -16,6 +16,7 @@ import ZiJinLiuRuCiXinGuPage from './ZiJinLiuRuCiXinGuPage'
 import GordonPage from './GordonPage'
 import FavoritesPage from './FavoritesPage'
 import ReportPage from './ReportPage'
+import PortalHomePage from './PortalHomePage'
 
 export default class TabMain extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ export default class TabMain extends Component {
 			<ReportPage tabLabel={{label: "报告"}} label="报告" navigator={this.props.navigator}/>
 			<FavoritesPage tabLabel={{label: "精选"}} label="精选" navigator={this.props.navigator}/>
 			<ZiJinLiuRuCiXinGuPage tabLabel={{label: "次新"}} label="次新" navigator={this.props.navigator}/>
+            <PortalHomePage tabLabel={{label: "维护"}} label="维护" navigator={this.props.navigator}/>
           </ScrollableTabView>
         </View>
     );
