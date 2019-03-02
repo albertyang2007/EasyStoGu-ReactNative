@@ -23,18 +23,32 @@ const SAMPLES = [
   },
   {
     component: WebViewSample,
-    name: '鲁兆大趋势统计',
+    name: '威廉指标统计',
     params: {
-	  queryUrl: baseUrl + 'luzaoTrend'
+      queryUrl: baseUrl + 'wr'
     }
-  },
+  },  
   {
 	component: WebViewSample,
 	name: 'QSDD指标统计',
 	params: {
 	  queryUrl: baseUrl + 'qsdd'
 	}
+  },   
+  {
+    component: WebViewSample,
+    name: 'MACD指标统计',
+    params: {
+      queryUrl: baseUrl + 'macd'
+    }
   },  
+  {
+    component: WebViewSample,
+    name: '鲁兆大趋势统计',
+    params: {
+	  queryUrl: baseUrl + 'luzaoTrend'
+    }
+  }, 
   {
     component: WebViewSample,
     name: '鲁兆金叉统计',
@@ -47,20 +61,6 @@ const SAMPLES = [
     name: '神仙大趋势统计',
     params: {
       queryUrl: baseUrl + 'shenxian'
-    }
-  },
-  {
-    component: WebViewSample,
-    name: 'MACD指标统计',
-    params: {
-      queryUrl: baseUrl + 'macd'
-    }
-  },
-  {
-    component: WebViewSample,
-    name: '威廉指标统计',
-    params: {
-      queryUrl: baseUrl + 'wr'
     }
   },
   {
